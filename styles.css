@@ -15,7 +15,7 @@ body{
   background:var(--sand);
   color:var(--ink);
   line-height:1.8;
-  font-size:17px;
+  font-size:19px;
 }
 h1,h2,h3{font-family:'Noto Serif TC',serif;}
 img{max-width:100%; display:block;}
