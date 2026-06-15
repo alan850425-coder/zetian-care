@@ -5,6 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>居家照顧服務 | 澤天居家長照機構</title>
 <link rel="stylesheet" href="styles.css">
+<style>
+.ba-table{width:100%; border-collapse:collapse; margin-top:16px; font-size:0.88rem;}
+.ba-table th{background:var(--green-deep); color:var(--sand); padding:10px 14px; text-align:left; font-weight:700;}
+.ba-table td{padding:9px 14px; border-bottom:1px solid var(--sand-dark); color:var(--ink);}
+.ba-table tr:nth-child(even) td{background:rgba(246,241,231,0.6);}
+.ba-table tr:hover td{background:var(--sand-dark);}
+.ba-code{font-weight:700; color:var(--coral); white-space:nowrap;}
+</style>
 </head>
 <body>
 
@@ -32,27 +40,47 @@
 <section class="content">
   <div class="photo-placeholder">服務照片</div>
 
-  <h2>服務內容</h2>
-  <p>居家服務由合格居服員到府提供協助,內容包含但不限於:</p>
-  <div class="job-list">
-    <div class="job-card">
-      <h3>身體照顧服務</h3>
-      <p>協助沐浴、更衣、翻身拍背、移位、餵食、如廁等日常生活照護。</p>
-    </div>
-    <div class="job-card">
-      <h3>日常生活照顧</h3>
-      <p>備餐、家務協助、陪同散步、生活環境整理等。</p>
-    </div>
-    <div class="job-card">
-      <h3>陪同外出</h3>
-      <p>陪同就醫、陪同辦理事務等外出協助服務。</p>
-    </div>
-  </div>
-
-  <h2 style="margin-top:36px;">服務對象</h2>
+  <h2>服務對象</h2>
   <p>經長照2.0需求評估、需要居家照顧服務之長者與身心障礙者,服務範圍涵蓋台中市八大行政區。</p>
 
-  <div class="btn-row" style="margin-top:24px;">
+  <h2 style="margin-top:36px;">居家照顧服務項目(BA碼)</h2>
+  <p>依長照2.0照顧組合表,居家照顧服務共24項組合,由居服員依個案核定計畫提供服務:</p>
+
+  <table class="ba-table">
+    <thead>
+      <tr><th>碼別</th><th>照顧組合名稱</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="ba-code">BA01</td><td>基本身體清潔</td></tr>
+      <tr><td class="ba-code">BA02</td><td>基本日常照顧</td></tr>
+      <tr><td class="ba-code">BA03</td><td>測量生命徵象</td></tr>
+      <tr><td class="ba-code">BA04</td><td>協助進食或管灌餵食</td></tr>
+      <tr><td class="ba-code">BA05</td><td>餐食照顧</td></tr>
+      <tr><td class="ba-code">BA06</td><td>協助沐浴及洗頭(移位至浴室)</td></tr>
+      <tr><td class="ba-code">BA07</td><td>協助沐浴及洗頭</td></tr>
+      <tr><td class="ba-code">BA08</td><td>陪同就醫或社區活動</td></tr>
+      <tr><td class="ba-code">BA09</td><td>陪同就醫或社區活動(搭乘復康巴士)</td></tr>
+      <tr><td class="ba-code">BA10</td><td>居家安全看視</td></tr>
+      <tr><td class="ba-code">BA11</td><td>協助服藥</td></tr>
+      <tr><td class="ba-code">BA12</td><td>協助運動</td></tr>
+      <tr><td class="ba-code">BA13</td><td>協助翻身拍背、肢體關節活動</td></tr>
+      <tr><td class="ba-code">BA14</td><td>陪伴及關懷服務</td></tr>
+      <tr><td class="ba-code">BA15</td><td>家務服務</td></tr>
+      <tr><td class="ba-code">BA16</td><td>代購、代領、代送服務</td></tr>
+      <tr><td class="ba-code">BA17</td><td>備餐服務</td></tr>
+      <tr><td class="ba-code">BA18</td><td>協助上下床、椅、輪椅與坐姿平衡</td></tr>
+      <tr><td class="ba-code">BA19</td><td>協助穿換衣服</td></tr>
+      <tr><td class="ba-code">BA20</td><td>口腔清潔</td></tr>
+      <tr><td class="ba-code">BA21</td><td>失智症照顧服務加成</td></tr>
+      <tr><td class="ba-code">BA22</td><td>巡視服務</td></tr>
+      <tr><td class="ba-code">BA23</td><td>協助洗頭</td></tr>
+      <tr><td class="ba-code">BA24</td><td>協助排泄</td></tr>
+    </tbody>
+  </table>
+
+  <p style="margin-top:14px; font-size:0.83rem; color:#6b7a72;">※ 實際可使用項目與額度,依長照管理中心評估核定之照顧計畫為準。</p>
+
+  <div class="btn-row" style="margin-top:28px;">
     <a href="contact.html" class="btn btn-primary">洽詢服務</a>
     <a href="services.html" class="btn btn-secondary">返回服務項目</a>
   </div>

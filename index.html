@@ -5,6 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>澤天居家長照機構</title>
 <link rel="stylesheet" href="styles.css">
+<style>
+.ltc-section{padding:52px 20px; background:var(--sand-dark);}
+.ltc-inner{max-width:760px; margin:0 auto;}
+.ltc-section h2{color:var(--green-deep); font-size:1.5rem; margin-bottom:8px; text-align:center;}
+.ltc-section .sub{text-align:center; color:#6b7a72; font-size:0.88rem; margin-bottom:28px;}
+.ltc-cards{display:grid; gap:14px; grid-template-columns:1fr;}
+@media(min-width:640px){.ltc-cards{grid-template-columns:repeat(2,1fr);}}
+.ltc-card{background:white; border:1px solid #d8cfc0; border-radius:12px; padding:18px 16px;}
+.ltc-card h3{color:var(--green-deep); font-size:0.98rem; margin-bottom:6px;}
+.ltc-card p{font-size:0.85rem; color:#5a6a62; margin-bottom:0;}
+.ltc-apply{background:var(--green-deep); color:var(--sand); border-radius:14px; padding:20px 22px; margin-top:20px; text-align:center;}
+.ltc-apply p{color:#cfe0d6; font-size:0.9rem; margin-bottom:10px;}
+.ltc-apply strong{color:var(--coral); font-size:1.1rem;}
+.target-list{display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; justify-content:center;}
+.target-list span{background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.2); color:var(--sand); font-size:0.8rem; padding:5px 12px; border-radius:20px;}
+</style>
 </head>
 <body>
 
@@ -26,8 +42,7 @@
 <section class="hero">
   <span class="eyebrow">台中市 · 居家長照服務</span>
   <h1>讓照顧,回到家裡<br>也能安心又專業</h1>
-  <p>澤天居家長照機構提供居家服務、居家護理與長照A個案管理,
-  陪伴台中市八大行政區的家庭,一起把日常照顧的重擔,變得輕一點。</p>
+  <p>澤天居家長照機構提供居家服務、居家護理與長照A個案管理,陪伴台中市八大行政區的家庭,一起把日常照顧的重擔,變得輕一點。</p>
   <div class="btn-row">
     <a href="services.html" class="btn btn-primary">了解服務內容</a>
     <a href="recruit.html" class="btn btn-secondary">加入我們的團隊</a>
@@ -40,6 +55,46 @@
   <div class="district-grid">
     <div>東區</div><div>南區</div><div>北區</div><div>中區</div>
     <div>西區</div><div>西屯區</div><div>南屯區</div><div>北屯區</div>
+  </div>
+</section>
+
+<!-- 什麼是長照 -->
+<section class="ltc-section" id="ltc">
+  <div class="ltc-inner">
+    <h2>什麼是長照？</h2>
+    <p class="sub">長期照顧2.0（長照2.0）是政府為回應高齡化社會所推動的照顧服務體系,自106年起實施,提供失能、失智者及其家庭完整的照顧資源與補助。</p>
+
+    <div class="ltc-cards">
+      <div class="ltc-card">
+        <h3>📋 服務內容</h3>
+        <p>涵蓋居家服務、日間照顧、家庭托顧、專業服務(護理、復健、營養等)、輔具租借購買、居家無障礙改善、交通接送及喘息服務等。</p>
+      </div>
+      <div class="ltc-card">
+        <h3>💰 政府補助</h3>
+        <p>符合資格者依失能等級獲得每月照顧服務額度補助。一般戶自付約16%,中低收入戶約5%,低收入戶0%自付。</p>
+      </div>
+      <div class="ltc-card">
+        <h3>🏠 在地老化</h3>
+        <p>長照2.0以「在地老化」為目標,讓長者盡可能在熟悉的家中與社區中生活,減輕家屬照顧壓力。</p>
+      </div>
+      <div class="ltc-card">
+        <h3>📞 如何申請</h3>
+        <p>撥打長照專線 <strong>1966</strong>,由專人到府評估,核定失能等級與服務額度後即可開始使用長照服務。</p>
+      </div>
+    </div>
+
+    <div class="ltc-apply">
+      <p>長照服務適用對象(經評估符合失能等級2級以上)</p>
+      <div class="target-list">
+        <span>65歲以上失能長者</span>
+        <span>50歲以上失智症患者</span>
+        <span>55歲以上失能原住民</span>
+        <span>49歲以下失能身心障礙者</span>
+        <span>65歲以上衰弱獨居長者</span>
+      </div>
+      <p style="margin-top:14px; margin-bottom:4px;">不確定是否符合資格？</p>
+      <strong>撥打 1966 長照專線免費諮詢</strong>
+    </div>
   </div>
 </section>
 
@@ -75,8 +130,7 @@
 
 <section class="recruit" id="recruit">
   <h2>歡迎加入澤天團隊</h2>
-  <p>我們持續招募居服員、居家護理師與個案管理師,提供完整職前訓練與穩定排班,
-  一起在台中陪伴更多家庭好好生活。</p>
+  <p>我們持續招募居服員、居家護理師與個案管理師,提供完整職前訓練與穩定排班,一起在台中陪伴更多家庭好好生活。</p>
   <div class="recruit-tags">
     <span>居家服務員</span>
     <span>居家護理師</span>
